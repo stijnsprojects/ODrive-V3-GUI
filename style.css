@@ -1,0 +1,22 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+code {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+summary {
+    font-weight: 700;
+    font-size: larger;
+}
+
+details div {
+    border-left: solid black 1px; 
+    padding-left: 15px;
+}
