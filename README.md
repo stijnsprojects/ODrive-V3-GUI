@@ -8,3 +8,6 @@ This GitHub repo is associated with this [YouTube video](https://youtube.com/tPq
 
 ## Download  
 Due to its size, the executable is provided as an external download, available [here](https://drive.google.com/uc?export=download&id=129Qsbz48723BkJwVFzX4hOuLiNGyXbP5).
+
+## Website
+You can find the project's website [here](https://stijnsprojects.github.io/ODrive-V3-GUI/).
