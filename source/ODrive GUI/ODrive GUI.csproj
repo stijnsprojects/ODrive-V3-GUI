@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>ODrive_GUI</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>odrive white.ico</ApplicationIcon>
+    <PackageIcon>odrive border.png</PackageIcon>
+    <Company>Stijns Projects</Company>
+    <Copyright>© 2025 Stijns Projects</Copyright>
+    <PackageLicenseExpression>CC-BY-NC-4.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Authors>Stijn Carelsbergh</Authors>
+    <Title>ODrive GUI</Title>
+    <Description>GUI to configure V3.X ODrive motor drivers.</Description>
+    <RepositoryUrl>https://github.com/stijnsprojects/ODrive-V3-GUI</RepositoryUrl>
+    <PackageTags>ODrive; GUI</PackageTags>
+    <AssemblyName>ODrive V3 GUI</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="odrive white.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\odrive border.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="9.0.6" />
+    <PackageReference Include="System.Management" Version="9.0.6" />
+  </ItemGroup>
+
+</Project>
